@@ -8,6 +8,13 @@ public class Delfino extends Animale implements Nuotante{
 	}
 
 	//metodi ereditati dalla classe padre (Animale)
+	
+	@Override
+	public void dormi() {
+		super.dormi();
+		System.out.println(this.getName() + ": blublublu");
+	}
+	
 	@Override
 	public void verso() {
 		// TODO Auto-generated method stub

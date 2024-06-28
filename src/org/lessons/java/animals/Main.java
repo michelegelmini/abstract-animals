@@ -14,25 +14,28 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		Delfino Johnny = new Delfino("Johnny");
-		Cane Bobby = new Cane("Bobby");
-		Passerotto Jimmy = new Passerotto("Jimmy");
-		Aquila Danny = new Aquila("Danny");
-		Cane Burro = new Cane("Burro");
+		Delfino johnny = new Delfino("Johnny il delfino");
+		Cane bobby = new Cane("Bobby il cane");
+		Passerotto jimmy = new Passerotto("Jimmy il passerotto");
+		Aquila danny = new Aquila("Danny l'aquila");
+		Animale burro = new Cane("Burro il cane");
+		Animale ciano = new Cane("ciano");
 		
 		
-		faiNuotare(Johnny);
-		faiVolare(Danny);
+		ciano.mangia();
 		
-		Bobby.verso();
+		faiNuotare(johnny);
+		faiVolare(danny);
 		
-		Bobby.mangia();
+		bobby.verso();
 		
-		faiVolare(Jimmy);
+		bobby.mangia();
 		
-		Burro.mangia();
-		Burro.verso();
-		Burro.dormi();
+		jimmy.mangia();
+		
+		burro.mangia();
+		burro.verso();
+		burro.dormi();
 		
 	}
 

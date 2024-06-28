@@ -10,7 +10,6 @@ public abstract class Animale {
 	}
 	
 	//metodi
-	
 	public String getName() {
 		return name;
 	}
